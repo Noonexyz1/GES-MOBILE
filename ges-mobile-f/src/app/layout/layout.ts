@@ -1,10 +1,11 @@
 import {Component} from '@angular/core';
 import {Topbar} from './component/topbar';
 import {Sidebar} from './component/sidebar';
+import { Footer } from "./component/footer";
 
 @Component({
   selector: 'app-layout',
-  imports: [Topbar, Sidebar],
+  imports: [Topbar, Sidebar, Footer],
   template: `
     <div class="antialiased bg-gray-50 dark:bg-gray-900">
       <app-topbar></app-topbar>
@@ -37,6 +38,7 @@ import {Sidebar} from './component/sidebar';
         </div>
 
       </main>
+      <app-footer></app-footer>
     </div>
   `,
 })

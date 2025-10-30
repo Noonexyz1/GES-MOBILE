@@ -14,7 +14,7 @@ import { Component } from '@angular/core';
             data-drawer-target="drawer-navigation"
             data-drawer-toggle="drawer-navigation"
             aria-controls="drawer-navigation"
-            class="p-2 mr-2 text-gray-600 rounded-lg cursor-pointer md:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
+            class="p-2 text-gray-600 rounded-lg cursor-pointer md:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             <svg
               aria-hidden="true"
@@ -46,14 +46,14 @@ import { Component } from '@angular/core';
           </button>
 
           <!--Logo empresa-->
-          <a href="https://www.entel.bo" class="flex items-center justify-between mr-4 gap-2">
+          <a href="https://www.entel.bo" class="flex items-center justify-between">
             <img
               src="logo-favicon.png"
-              class="h-8"
+              class="h-5 sm:h-8"
               alt="empresa Logo"
             />
-            <span class="text-sky-500 self-center text-2xl font-semibold whitespace-nowrap">entel</span>
-            <span class="text-orange-400 self-center text-2xl font-extrabold whitespace-nowrap">Mobile</span>
+            <span class="text-sky-500 self-center text-xl sm:text-2xl font-semibold whitespace-nowrap">entel</span>
+            <span class="text-orange-400 self-center text-xl sm:text-2xl font-extrabold whitespace-nowrap">Mobile</span>
           </a>
         </div>
 
@@ -62,7 +62,7 @@ import { Component } from '@angular/core';
           <button
             type="button"
             data-dropdown-toggle="notification-dropdown"
-            class="p-2 mr-1 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            class="p-2 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
           >
             <span class="sr-only">View notifications</span>
             <!-- Bell icon -->
@@ -566,7 +566,7 @@ import { Component } from '@angular/core';
           <!-- User button and Dropdown menu -->
           <button
             type="button"
-            class="flex mx-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+            class="flex mx-2 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
             id="user-menu-button"
             aria-expanded="false"
             data-dropdown-toggle="dropdown"
@@ -703,6 +703,7 @@ import { Component } from '@angular/core';
           </div>
 
         </div>
+
       </div>
     </nav>
   `,

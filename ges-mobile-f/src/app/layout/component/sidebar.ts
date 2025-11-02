@@ -13,24 +13,7 @@ import { Component } from '@angular/core';
       <div class="overflow-y-auto py-5 px-3 h-full bg-white dark:bg-gray-800">
 
         <ul class="space-y-2">
-          <li>
-            <a
-              href="#"
-              class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group"
-            >
-              <svg
-                aria-hidden="true"
-                class="w-6 h-6 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
-                <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
-              </svg>
-              <span class="ml-3">Overview</span>
-            </a>
-          </li>
+          <!--Opcion Recargas-->
           <li>
             <button
               type="button"
@@ -38,21 +21,13 @@ import { Component } from '@angular/core';
               aria-controls="dropdown-pages"
               data-collapse-toggle="dropdown-pages"
             >
-              <svg
-                aria-hidden="true"
-                class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
-                  clip-rule="evenodd"
-                ></path>
+              <svg class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M11 16.5a5.5 5.5 0 1 1 11 0 5.5 5.5 0 0 1-11 0Zm4.5 2.5v-1.5H14v-2h1.5V14h2v1.5H19v2h-1.5V19h-2Z" clip-rule="evenodd"/>
+                <path d="M3.987 4A2 2 0 0 0 2 6v9a2 2 0 0 0 2 2h5v-2H4v-5h16V6a2 2 0 0 0-2-2H3.987Z"/>
+                <path fill-rule="evenodd" d="M5 12a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z" clip-rule="evenodd"/>
               </svg>
-              <span class="flex-1 ml-3 text-left whitespace-nowrap"
-              >Pages</span
+
+              <span class="flex-1 ml-3 text-left whitespace-nowrap">Recarga</span
               >
               <svg
                 aria-hidden="true"
@@ -73,25 +48,30 @@ import { Component } from '@angular/core';
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Settings</a
-                >
+                >Recarga con tarjeta</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Kanban</a
-                >
+                >Transferir credito</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Calendar</a
-                >
+                >Recarga a un amigo</a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
+                >Prestamo</a>
               </li>
             </ul>
           </li>
+
+          <!--Opcion Compras-->
           <li>
             <button
               type="button"
@@ -112,9 +92,7 @@ import { Component } from '@angular/core';
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <span class="flex-1 ml-3 text-left whitespace-nowrap"
-              >Sales</span
-              >
+              <span class="flex-1 ml-3 text-left whitespace-nowrap">Compras</span>
               <svg
                 aria-hidden="true"
                 class="w-6 h-6"
@@ -134,25 +112,23 @@ import { Component } from '@angular/core';
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Products</a
-                >
+                >Paquetes Internet</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Billing</a
-                >
+                >Paquetes Llamada</a>
               </li>
               <li>
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Invoice</a
-                >
+                >Paquete Futbolero</a>
               </li>
             </ul>
           </li>
+
           <li>
             <a
               href="#"
@@ -180,6 +156,7 @@ import { Component } from '@angular/core';
               </span>
             </a>
           </li>
+
           <li>
             <button
               type="button"

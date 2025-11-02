@@ -115,7 +115,7 @@ import { Footer } from "./component/footer";
 
         <div class="rounded-4xl h-48 mb-4 md:h-72">
           <!--Carrusel-->
-          <div id="default-carousel" class="relative w-full" data-carousel="slide">
+          <div id="default-carousel" class="relative w-full z-0" data-carousel="slide">
             <!--Imagenes de carrusel-->
             <div class="relative h-47 overflow-hidden rounded-4xl md:h-71">
               <div class="hidden duration-700 ease-in-out" data-carousel-item>

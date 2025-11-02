@@ -12,6 +12,14 @@ import { Footer } from "./component/footer";
       <app-sidebar></app-sidebar>
       <main class="p-4 md:ml-64 h-auto pt-20">
 
+        <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 h-32 p-4 items-center">
+          <h2 class="">Mi numero</h2>
+          <div class="flex gap-4">
+            <h1 class="text-3xl">+591</h1>
+            <h1 class="font-bold text-3xl">726**854</h1>
+          </div>
+        </div>
+
         <div class="grid grid-cols-2 gap-4 mb-4">
 
           <!--Tarjeta Llamada-->

@@ -165,6 +165,51 @@ import { Footer } from "./component/footer";
           </div>
         </div>
 
+        <div>
+          <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 p-4 items-center">
+            <h2 class="">💰 Compra de megas exitosa!</h2>
+            <div class="flex gap-4">
+              <h1 class="text-gray-600">Usted hizo la compra de megas diarias a 2Bs por 24 horas, Gracias por la compra!</h1>
+            </div>
+            <h2 class="text-sm text-gray-500">Hace 5min atras.</h2>
+          </div>
+
+          <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 p-4 items-center">
+            <h2 class="">💰 Recarga de Crédito Exitosa</h2>
+            <div class="flex gap-4">
+              <h1 class="text-gray-600">Se realizó una recarga de **50 Bs.** a tu cuenta. Saldo actual: 75.50 Bs.</h1>
+            </div>
+            <h2 class="text-sm text-gray-500">Hace 15 min.</h2>
+          </div>
+
+          <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 p-4 items-center">
+            <h2 class="">📡 Compra de Paquete Mensual</h2>
+            <div class="flex gap-4">
+              <h1 class="text-gray-600">Adquisición del paquete de **5GB por 30 días** a 50 Bs. ¡Disfruta!</h1>
+            </div>
+            <h2 class="text-sm text-gray-500">Hace 2 horas.</h2>
+          </div>
+
+          <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 p-4 items-center">
+            <h2 class="">⚠️ Alerta de Consumo</h2>
+            <div class="flex gap-4">
+              <h1 class="text-gray-600">Has consumido el **80% de tus megas** del paquete diario. ¡Considera una nueva compra!</h1>
+            </div>
+            <h2 class="text-sm text-gray-500">Ayer a las 18:30.</h2>
+          </div>
+
+          <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 p-4 items-center">
+            <h2 class="">⭐ Bono por Fidelidad</h2>
+            <div class="flex gap-4">
+              <h1 class="text-gray-600">¡Felicidades! Se te ha otorgado **500MB de regalo** por ser un cliente fiel.</h1>
+            </div>
+            <h2 class="text-sm text-gray-500">El 25 de octubre.</h2>
+          </div>
+
+        </div>
+
+
+
         <div class="border-2 border-dashed rounded-lg border-gray-300 dark:border-gray-600 h-96 mb-4"></div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">

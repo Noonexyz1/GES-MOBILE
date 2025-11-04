@@ -10,7 +10,7 @@ import { Footer } from "./component/footer";
     <div class="antialiased bg-gray-50 dark:bg-gray-900">
       <app-topbar></app-topbar>
       <app-sidebar></app-sidebar>
-      <main class="p-4 md:ml-64 h-auto pt-20">
+      <main class="p-4 md:ml-64 h-auto pt-20 pb-20">
 
         <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-gray-300 dark:border-gray-600 h-32 p-4 items-center">
           <h2 class="">Mi numero</h2>

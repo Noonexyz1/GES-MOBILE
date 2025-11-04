@@ -20,6 +20,15 @@ import { Footer } from "./component/footer";
           </div>
         </div>
 
+        @if (isMessageSystemAlert) {
+          <div class="grid grid-cols-1 mb-4 border-2 rounded-4xl border-orange-300 bg-orange-100 p-4 items-center">
+            <h2 class="font-bold">⚠️ Alerta de Mantenimiento</h2>
+            <h1 class="text-gray-600">
+              El servicio de Transferencia de credito a un amigo queda en mantenimiento, este servicio se reanudara tan pronto como sea posible. Gracias por su comprension.
+            </h1>
+          </div>
+        }
+
         <div class="grid grid-cols-2 gap-4 mb-4">
 
           <!--Tarjeta Llamada-->
@@ -295,4 +304,6 @@ export class Layout {
   isModalInfoActive: boolean = false;
   isModalSuccesActive: boolean = false;
   isModalErrorActive: boolean = false;
+
+  isMessageSystemAlert: boolean = true;
 }

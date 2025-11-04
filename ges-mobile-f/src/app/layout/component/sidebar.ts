@@ -129,6 +129,7 @@ import { Component } from '@angular/core';
             </ul>
           </li>
 
+          <!--Opcion Historiales-->
           <li>
             <button
               type="button"
@@ -137,18 +138,11 @@ import { Component } from '@angular/core';
               data-collapse-toggle="dropdown-authentication"
             >
               <svg
-                aria-hidden="true"
                 class="flex-shrink-0 w-6 h-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"
-                  clip-rule="evenodd"
-                ></path>
+                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                <path fill-rule="evenodd" d="M8 3a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1h2a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h2Zm6 1h-4v2H9a1 1 0 0 0 0 2h6a1 1 0 1 0 0-2h-1V4Zm-3 8a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm-2-1a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H9Zm2 5a1 1 0 0 1 1-1h3a1 1 0 1 1 0 2h-3a1 1 0 0 1-1-1Zm-2-1a1 1 0 1 0 0 2h.01a1 1 0 1 0 0-2H9Z" clip-rule="evenodd"/>
               </svg>
+
               <span class="flex-1 ml-3 text-left whitespace-nowrap">Historiales</span>
               <svg
                 aria-hidden="true"
@@ -177,16 +171,21 @@ import { Component } from '@angular/core';
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Historial de recargas postpago</a>
+                >
+                  Historial de recargas postpago
+                </a>
               </li>
               <li>
                 <a
                   href="#"
                   class="flex items-center p-2 pl-11 w-full text-base font-medium text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700"
-                >Hisotial de compras</a>
+                >
+                  Historial de compras
+                </a>
               </li>
             </ul>
           </li>
+
         </ul>
 
         <ul class="pt-5 mt-5 space-y-2 border-t border-gray-200 dark:border-gray-700">

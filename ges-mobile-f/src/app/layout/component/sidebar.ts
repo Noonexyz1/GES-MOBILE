@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
-  imports: [],
+  imports: [
+    RouterLink
+  ],
   template: `
     <aside
       class="fixed top-0 left-0 z-40 w-64 h-screen pt-14 transition-transform -translate-x-full bg-white border-r border-gray-200 md:translate-x-0 dark:bg-gray-800 dark:border-gray-700"
@@ -192,7 +195,7 @@ import { Component } from '@angular/core';
           <!--Opcion Promociones-->
           <li>
             <a
-              href="#"
+              routerLink="/promociones"
               class="flex items-center p-2 text-base font-medium text-gray-900 rounded-lg transition duration-75 hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-white group"
             >
               <svg

@@ -3,15 +3,25 @@ import {Topbar} from './component/topbar';
 import {Sidebar} from './component/sidebar';
 import { Footer } from "./component/footer";
 import {RouterOutlet} from '@angular/router';
+import {NgClass} from '@angular/common';
 
 @Component({
   selector: 'app-layout',
-  imports: [Topbar, Sidebar, Footer, RouterOutlet],
+  imports: [Topbar, Sidebar, Footer, RouterOutlet, NgClass],
   template: `
     <div class="antialiased bg-gray-50 dark:bg-gray-900">
-      <app-topbar></app-topbar>
-      <app-sidebar></app-sidebar>
-      <main class="p-4 md:ml-64 h-auto pt-20 pb-20">
+      <app-topbar (toggleSidebar)="this.onToggleSidebar()"></app-topbar>
+      <app-sidebar
+        [isOpen]="isSidebarOpen"
+        (optionSelected)="this.onSidebarClose()">
+      </app-sidebar>
+      <main
+        [ngClass]="{
+          'opacity-50 blur': isSidebarOpen,
+          'opacity-100 blur-none': !isSidebarOpen
+        }"
+        (click)="this.onBlurAreaClick()"
+        class="p-4 md:ml-64 h-auto pt-20 pb-20 md:pointer-events-none">
         <router-outlet></router-outlet>
       </main>
       <app-footer></app-footer>
@@ -80,4 +90,28 @@ export class Layout {
   isModalInfoActive: boolean = false;
   isModalSuccesActive: boolean = false;
   isModalErrorActive: boolean = false;
+
+  isSidebarOpen: boolean = false;
+
+  onToggleSidebar() {
+    this.isSidebarOpen = !this.isSidebarOpen;
+  }
+
+  // Nuevo métoodo para manejar el clic en el área borrosa
+  onBlurAreaClick() {
+    // Solo si está abierto, llama al toggle para cerrarlo
+    if (this.isSidebarOpen) {
+      this.onToggleSidebar();
+    }
+    // Nota: El evento click ocurre en la región borrosa (solo en móviles).
+    // En desktop, la clase md:pointer-events-none evita que se detecte el clic.
+  }
+
+  // 💡 NUEVO: Métoodo para forzar el cierre del sidebar
+  onSidebarClose() {
+    // Si está abierto, lo cierra (si ya está cerrado, no hace nada)
+    if (this.isSidebarOpen) {
+      this.isSidebarOpen = false;
+    }
+  }
 }

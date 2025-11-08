@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Output} from '@angular/core';
 
 @Component({
   selector: 'app-topbar',
@@ -11,9 +11,7 @@ import { Component } from '@angular/core';
         <div class="flex justify-start items-center">
           <!--Boton sandwich-->
           <button
-            data-drawer-target="drawer-navigation"
-            data-drawer-toggle="drawer-navigation"
-            aria-controls="drawer-navigation"
+            (click)="toggleSidebar.emit()"
             class="p-2 text-gray-600 rounded-lg cursor-pointer md:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
           >
             <svg
@@ -42,7 +40,6 @@ import { Component } from '@angular/core';
                 clip-rule="evenodd"
               ></path>
             </svg>
-            <span class="sr-only">Toggle sidebar</span>
           </button>
 
           <!--Logo empresa-->
@@ -709,5 +706,5 @@ import { Component } from '@angular/core';
   `,
 })
 export class Topbar {
-
+  @Output() toggleSidebar = new EventEmitter<void>();
 }

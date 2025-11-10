@@ -15,7 +15,7 @@
  * Autoría, Derechos Morales e Innovación: Pertenecen a Diego Diomir Mamani Ramos CI:12700466.
  * La Propiedad Intelectual de esta creación se realizó de manera extra-contractual con el fin de
  * contribuir a los objetivos estratégicos de la empresa Entel SA.
- * 
+ *
  * Los beneficios, reconocimientos y derechos de explotación comercial (si los hubiera) derivados de este código
  * (incluyendo cualquier ganancia) deben ser compartidos entre Diego Diomir Mamani Ramos CI:12700466
  * y la empresa Entel SA, de acuerdo con la legislación laboral sobre invenciones no
@@ -33,6 +33,7 @@
 
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
 
 @import "tailwindcss";
 @import "flowbite/src/themes/default";
@@ -54,7 +55,7 @@
 
     --color-entel-rosa: #f73cd8;
     --color-entel-rosa-oscuro: #aa1892;
-    
+
     --color-entel-naranja: #fc7d15;
     --color-entel-naranja-oscuro: #b3590f;
 
@@ -79,7 +80,7 @@
 
     --color-entel-rosa: #f73cd8;
     --color-entel-rosa-oscuro: #aa1892;
-    
+
     --color-entel-naranja: #fc7d15;
     --color-entel-naranja-oscuro: #b3590f;
 
@@ -88,4 +89,10 @@
 
     /*FUENTE*/
     --font-sans: "Montserrat", sans-serif;
+}
+
+/* 2. Crear una clase personalizada para aplicar Orbitron */
+.font-orbitron {
+  /* Aquí usamos el nombre exacto de la fuente importada */
+  font-family: 'Orbitron', sans-serif;
 }

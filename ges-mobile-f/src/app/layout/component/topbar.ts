@@ -79,15 +79,18 @@ import {Component, EventEmitter, Output} from '@angular/core';
             class="hidden overflow-hidden z-50 my-4 max-w-sm text-base list-none bg-white rounded divide-y divide-gray-100 shadow-lg dark:divide-gray-600 dark:bg-gray-700 rounded-xl"
             id="notification-dropdown"
           >
+            <!--Titulo de Notificaciones-->
             <div
               class="block py-2 px-4 text-base font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-600 dark:text-gray-300"
             >
-              Notifications
+              Notificaciones
             </div>
+
+            <!--Cuerpo de Notificaciones-->
             <div>
               <a
                 href="#"
-                class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
+                class="flex py-3 px-4 border-b border-b-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
               >
                 <div class="flex-shrink-0">
                   <img
@@ -118,10 +121,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
                   <div
                     class="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400"
                   >
-                    New message from
-                    <span class="font-semibold text-gray-900 dark:text-white"
-                    >Bonnie Green</span
-                    >: "Hey, what's up? All set for the presentation?"
+                    ¡Llegaron las Nuevas Promociones de Noviembre!🎉 Encuéntralas ahora mismo en la sección de Promociones.📲
                   </div>
                   <div
                     class="text-xs font-medium text-primary-600 dark:text-primary-500"
@@ -132,7 +132,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
               </a>
               <a
                 href="#"
-                class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
+                class="flex py-3 px-4 border-b border-b-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
               >
                 <div class="flex-shrink-0">
                   <img
@@ -160,14 +160,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
                   <div
                     class="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400"
                   >
-                    <span class="font-semibold text-gray-900 dark:text-white"
-                    >Jese leos</span
-                    >
-                    and
-                    <span class="font-medium text-gray-900 dark:text-white"
-                    >5 others</span
-                    >
-                    started following you.
+                    ⚽️¡Vive la pasión de la Liga Boliviana con Entel Fútbol! 🇧🇴 Compra los paquetes futboleros que están al alcance de tu bolsillo. ¡No te pierdas ni un partido!📱
                   </div>
                   <div
                     class="text-xs font-medium text-primary-600 dark:text-primary-500"
@@ -178,7 +171,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
               </a>
               <a
                 href="#"
-                class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
+                class="flex py-3 px-4 border-b border-b-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
               >
                 <div class="flex-shrink-0">
                   <img
@@ -208,14 +201,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
                   <div
                     class="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400"
                   >
-                    <span class="font-semibold text-gray-900 dark:text-white"
-                    >Joseph Mcfall</span
-                    >
-                    and
-                    <span class="font-medium text-gray-900 dark:text-white"
-                    >141 others</span
-                    >
-                    love your story. See it and view more stories.
+                    ¡Asegura tu conexión!🌐 Obtén ahora tu paquete de internet para navegar y usar tus redes favoritas sin interrupciones. ¡Es fácil y rápido!⚡️
                   </div>
                   <div
                     class="text-xs font-medium text-primary-600 dark:text-primary-500"
@@ -226,7 +212,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
               </a>
               <a
                 href="#"
-                class="flex py-3 px-4 border-b hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
+                class="flex py-3 px-4 border-b border-b-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 dark:border-gray-600"
               >
                 <div class="flex-shrink-0">
                   <img
@@ -256,15 +242,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
                   <div
                     class="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400"
                   >
-                    <span class="font-semibold text-gray-900 dark:text-white"
-                    >Leslie Livingston</span
-                    >
-                    mentioned you in a comment:
-                    <span
-                      class="font-medium text-primary-600 dark:text-primary-500"
-                    >Verde.green</span
-                    >
-                    what do you say?
+                    Encuesta Rápida✨. Tu opinión es clave para un servicio personalizado. ¡Gracias!🚀
                   </div>
                   <div
                     class="text-xs font-medium text-primary-600 dark:text-primary-500"
@@ -275,7 +253,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
               </a>
               <a
                 href="#"
-                class="flex py-3 px-4 hover:bg-gray-100 dark:hover:bg-gray-600"
+                class="flex py-3 px-4 border-b-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600"
               >
                 <div class="flex-shrink-0">
                   <img
@@ -303,11 +281,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
                   <div
                     class="text-gray-500 font-normal text-sm mb-1.5 dark:text-gray-400"
                   >
-                    <span class="font-semibold text-gray-900 dark:text-white"
-                    >Robert Brown</span
-                    >
-                    posted a new video: Glassmorphism - learn how to implement
-                    the new design trend.
+                    ¡Día de la Madre! 🌹 Con nuestros SUPER paquetes, dile cuánto la quieres. Internet y WhatsApp para ella. ¡Regálale conexión y cariño! 📲💞
                   </div>
                   <div
                     class="text-xs font-medium text-primary-600 dark:text-primary-500"
@@ -317,6 +291,8 @@ import {Component, EventEmitter, Output} from '@angular/core';
                 </div>
               </a>
             </div>
+
+            <!--Ver Mas de Notificaciones-->
             <a
               href="#"
               class="block py-2 text-md font-medium text-center text-gray-900 bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:text-white dark:hover:underline"
@@ -336,9 +312,10 @@ import {Component, EventEmitter, Output} from '@angular/core';
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                View all
+                Ver mas
               </div>
             </a>
+
           </div>
 
           <!-- Apps and Dropdown menu -->

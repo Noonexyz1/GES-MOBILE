@@ -342,30 +342,29 @@ import {Component, EventEmitter, Output} from '@angular/core';
             id="apps-dropdown"
           >
             <div
-              class="block py-2 px-4 text-base font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-600 dark:text-gray-300"
+              class="flex justify-center gap-2 py-2 px-4 text-base font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-600 dark:text-gray-300"
             >
-              <div class="flex items-center gap-2">
-                <span class="
-                    self-center
-                    text-xl sm:text-2xl
-                    font-orbitron
-                    whitespace-nowrap
+              <span class="
+                  self-center
+                  text-xl sm:text-2xl
+                  font-orbitron
+                  whitespace-nowrap
 
-                    bg-gradient-to-t
-                  from-sky-500
-                  via-purple-600
-                  to-pink-400
-                  text-transparent
-                  bg-clip-text
-                ">multiverso</span>
-                <div class="flex">
-                  <img
-                    src="logo-favicon.png"
-                    class="h-5 sm:h-8"
-                    alt="empresa Logo"
-                  />
-                  <span class="text-sky-500 self-center text-xl sm:text-2xl font-semibold whitespace-nowrap">entel</span>
-                </div>
+                  bg-gradient-to-t
+                from-sky-500
+                via-purple-600
+                to-pink-400
+                text-transparent
+                bg-clip-text
+              ">multiverso
+              </span>
+              <div class="flex">
+                <img
+                  src="logo-favicon.png"
+                  class="h-5 sm:h-8"
+                  alt="empresa Logo"
+                />
+                <span class="text-sky-500 self-center text-xl sm:text-2xl font-semibold whitespace-nowrap">entel</span>
               </div>
             </div>
             <div class="grid grid-cols-3 gap-4 p-4">

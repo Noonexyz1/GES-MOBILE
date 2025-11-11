@@ -14,6 +14,7 @@ export const routes: Routes = [
       { path: 'promociones', component: Promocion }
     ]
   },
+  { path: 'pincode', component: Pincode },
   { path: 'notfound', component: Notfound },
   { path: '**', redirectTo: '/notfound' }
 ];

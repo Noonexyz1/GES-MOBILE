@@ -344,7 +344,7 @@ import {Component, EventEmitter, Output} from '@angular/core';
             <div
               class="block py-2 px-4 text-base font-medium text-center text-gray-700 bg-gray-50 dark:bg-gray-600 dark:text-gray-300"
             >
-              <div class="flex items-center">
+              <div class="flex items-center gap-2">
                 <span class="
                     self-center
                     text-xl sm:text-2xl
@@ -358,12 +358,14 @@ import {Component, EventEmitter, Output} from '@angular/core';
                   text-transparent
                   bg-clip-text
                 ">multiverso</span>
-                <img
-                  src="logo-favicon.png"
-                  class="h-5 sm:h-8"
-                  alt="empresa Logo"
-                />
-                <span class="text-sky-500 self-center text-xl sm:text-2xl font-semibold whitespace-nowrap">entel</span>
+                <div class="flex">
+                  <img
+                    src="logo-favicon.png"
+                    class="h-5 sm:h-8"
+                    alt="empresa Logo"
+                  />
+                  <span class="text-sky-500 self-center text-xl sm:text-2xl font-semibold whitespace-nowrap">entel</span>
+                </div>
               </div>
             </div>
             <div class="grid grid-cols-3 gap-4 p-4">

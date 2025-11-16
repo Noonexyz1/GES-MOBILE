@@ -6,8 +6,8 @@ import { Component } from '@angular/core';
   template: `
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600">
-        <div class="flex flex-row gap-1 ml-8">
+      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+        <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
           <h2 class="px-1 bg-green-500 text-white rounded-b-lg inline-block text-sm">Nuevo!</h2>
           <h2 class="px-1 bg-yellow-500 text-white rounded-b-lg inline-block text-sm">Popular</h2>
           <h2 class="px-1 bg-sky-500 text-white rounded-b-lg inline-block text-sm">Sugerencia</h2>
@@ -51,8 +51,8 @@ import { Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600">
-        <div class="flex flex-row gap-1 ml-8">
+      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+        <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
           <h2 class="px-1 bg-sky-500 text-white rounded-b-lg inline-block text-sm">Sugerencia</h2>
           <h2 class="px-1 bg-red-600 text-white rounded-b-lg inline-block text-sm">Solo Hoy</h2>
         </div>
@@ -93,8 +93,8 @@ import { Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600">
-        <div class="flex flex-row gap-1 ml-8">
+      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+        <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
           <h2 class="px-1 bg-yellow-500 text-white rounded-b-lg inline-block text-sm">Popular</h2>
           <h2 class="px-1 bg-purple-600 text-white rounded-b-lg inline-block text-sm">Max Velocidad</h2>
         </div>
@@ -132,8 +132,8 @@ import { Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600">
-        <div class="flex flex-row gap-1 ml-8">
+      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+        <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
           <h2 class="px-1 bg-green-500 text-white rounded-b-lg inline-block text-sm">Nuevo!</h2>
         </div>
 
@@ -173,8 +173,8 @@ import { Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600">
-        <div class="flex flex-row gap-1 ml-8">
+      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+        <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
           <h2 class="px-1 bg-yellow-500 text-white rounded-b-lg inline-block text-sm">Popular</h2>
           <h2 class="px-1 bg-green-500 text-white rounded-b-lg inline-block text-sm">Max Ahorro</h2>
         </div>
@@ -215,8 +215,8 @@ import { Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600">
-        <div class="flex flex-row gap-1 ml-8">
+      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+        <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
         </div>
 
         <div class="flex pt-4 px-4 justify-between gap-1 items-center">

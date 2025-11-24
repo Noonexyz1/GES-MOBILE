@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-4">
 
-      <div class="border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative">
+      <div class="tarjeta-promocion">
         <div class="flex flex-row gap-1 ml-8 absolute top-0 left-0">
           <h2 class="px-1 bg-green-500 text-white rounded-b-lg inline-block text-sm">Nuevo!</h2>
           <h2 class="px-1 bg-yellow-500 text-white rounded-b-lg inline-block text-sm">Popular</h2>

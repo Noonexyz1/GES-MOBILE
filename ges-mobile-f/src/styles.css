@@ -97,3 +97,7 @@
   /* Aquí usamos el nombre exacto de la fuente importada */
   font-family: 'Orbitron', sans-serif;
 }
+
+.tarjeta-promocion{
+  @apply border-2 border-gray-300 rounded-4xl dark:border-gray-600 relative
+}

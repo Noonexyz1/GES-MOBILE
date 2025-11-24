@@ -6,6 +6,7 @@ import {Promocion} from './pages/promocion/promocion';
 import {Dashboard} from './pages/dashboard/dashboard';
 import {Grafica} from './pages/grafica/grafica';
 import {PaqueInternet} from './pages/paque-internet/paque-internet';
+import {RecargaTarjeta} from './pages/recarga-tarjeta/recarga-tarjeta';
 
 export const routes: Routes = [
   {
@@ -14,7 +15,8 @@ export const routes: Routes = [
     children: [
       { path: '', component: Dashboard },
       { path: 'promociones', component: Promocion },
-      { path: 'paqueteInternet', component: PaqueInternet }
+      { path: 'paqueteInternet', component: PaqueInternet },
+      { path: 'recargaTarjeta', component: RecargaTarjeta }
     ]
   },
   { path: 'pincode', component: Pincode },

@@ -21,7 +21,7 @@ import {NgClass} from '@angular/common';
           'opacity-100 blur-none': !isSidebarOpen
         }"
         (click)="this.onBlurAreaClick()"
-        class="p-4 md:ml-64 h-auto pt-20 pb-20 md:pointer-events-none">
+        class="p-4 md:ml-64 h-auto pt-20 pb-20">
         <router-outlet></router-outlet>
       </main>
       <app-footer></app-footer>

@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <div class="grid grid-cols-1">
-      <div class="flex flex-col mb-4 border-2 rounded-4xl gap-3 p-4 items-center border-gray-300 dark:border-gray-600">
+      <div class="flex flex-col mb-4 border-2 rounded-4xl gap-3 p-4 border-gray-300 dark:border-gray-600">
         <div>
           <h2 class="dark:text-white font-bold">¡DUPLICA TU SALDO PREPAGO!💸</h2>
           <div class="flex flex-col">
@@ -20,7 +20,7 @@ import { Component } from '@angular/core';
         </button>
       </div>
 
-      <div class="flex flex-col mb-4 border-2 rounded-4xl gap-3 p-4 items-center border-gray-300 dark:border-gray-600">
+      <div class="flex flex-col mb-4 border-2 rounded-4xl gap-3 p-4 border-gray-300 dark:border-gray-600">
         <div>
           <h2 class="dark:text-white font-bold">🚀¡DOBLE CARGA ACTIVADA!🚀</h2>
           <div class="flex flex-col">
@@ -32,7 +32,7 @@ import { Component } from '@angular/core';
         </div>
       </div>
 
-      <div class="flex flex-col mb-4 border-2 rounded-4xl gap-3 p-4 items-center border-gray-300 dark:border-gray-600">
+      <div class="flex flex-col mb-4 border-2 rounded-4xl gap-3 p-4 border-gray-300 dark:border-gray-600">
         <div>
           <h2 class="dark:text-white font-bold">¡DOBLE CARGA USADA!⏳</h2>
           <div class="flex flex-col">
@@ -51,7 +51,7 @@ import { Component } from '@angular/core';
         </h1>
       </div>
 
-      <div class="flex flex-col mb-4 border-2 rounded-xl gap-1 p-1 items-center border-gray-300 dark:border-gray-600">
+      <div class="flex flex-col mb-4 border-2 rounded-xl gap-1 p-1 border-gray-300 dark:border-gray-600">
 
         <div class="flex flex-row gap-7 justify-around">
           <div>

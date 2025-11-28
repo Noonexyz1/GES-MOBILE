@@ -7,12 +7,12 @@ import { Component } from '@angular/core';
     <div class="flex flex-col mb-4 bg-linear-to-t/decreasing from-indigo-300 to-cyan-400 rounded-xl gap-1 p-1">
       <div class="flex flex-row gap-7 justify-between">
         <div>
-          <h2 class="font-bold text-white text-sm">EMPRESA NACIONAL DE </h2>
-          <h2 class="font-bold text-white text-sm">TELECOMUNICACIONES S.A.</h2>
+          <h2 class="font-bold text-white text-[12px]">EMPRESA NACIONAL DE </h2>
+          <h2 class="font-bold text-white text-[12px]">TELECOMUNICACIONES S.A.</h2>
         </div>
         <div class="flex flex-col justify-center border-2 rounded-xl p-1 border-gray-200">
-          <h2 class="text-white text-sm">NIT:</h2>
-          <h2 class="text-white text-sm">NRO.FACTURA</h2>
+          <h2 class="text-white text-[10px]">NIT:</h2>
+          <h2 class="text-white text-[10px]">NRO.FACTURA</h2>
         </div>
       </div>
 

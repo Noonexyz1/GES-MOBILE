@@ -15,7 +15,9 @@ import { Component } from '@angular/core';
           </div>
           <h2 class="text-sm text-gray-500 dark:text-gray-400">🗓️ Las promociones no terminan! Disfruta de doble carga cada mes.</h2>
         </div>
-        <button type="button" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-4xl text-sm w-50 h-7 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">
+        <button
+          type="button"
+          class="self-center text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-4xl text-sm w-50 h-7 dark:bg-green-600 dark:hover:bg-green-700 focus:outline-none dark:focus:ring-green-800">
           Activar Doble Carga!!
         </button>
       </div>
@@ -53,7 +55,7 @@ import { Component } from '@angular/core';
 
       <div class="flex flex-col mb-4 border-2 rounded-xl gap-1 p-1 border-gray-300 dark:border-gray-600">
 
-        <div class="flex flex-row gap-7 justify-around">
+        <div class="flex flex-row gap-7 justify-between">
           <div>
             <h2 class="dark:text-white text-sm">EMPRESA NACIONAL DE </h2>
             <h2 class="dark:text-white text-sm">TELECOMUNICACIONES S.A.</h2>
@@ -67,10 +69,10 @@ import { Component } from '@angular/core';
         <h2 class="dark:text-white">FACTURA</h2>
 
         <div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-[330px] mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[255px] mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[300px] mb-2.5"></div>
-          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 max-w-[200px] mb-2.5"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full mb-2.5"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full mb-2.5"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full mb-2.5"></div>
+          <div class="h-2 bg-gray-200 rounded-full dark:bg-gray-700 w-full mb-2.5"></div>
         </div>
 
         <form class="flex flex-row max-w-sm mx-auto gap-2">

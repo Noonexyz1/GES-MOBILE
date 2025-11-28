@@ -124,9 +124,9 @@ import {Component, EventEmitter, Output} from '@angular/core';
                     ¡Llegaron las Nuevas Promociones de Noviembre!🎉 Encuéntralas ahora mismo en la sección de Promociones.📲
                   </div>
                   <div
-                    class="text-xs font-medium text-primary-600 dark:text-primary-500"
+                    class="text-xs font-medium text-primary-600 dark:text-gray-300"
                   >
-                    a few moments ago
+                    hace un momento
                   </div>
                 </div>
               </a>
@@ -163,9 +163,9 @@ import {Component, EventEmitter, Output} from '@angular/core';
                     ⚽️¡Vive la pasión de la Liga Boliviana con Entel Fútbol! 🇧🇴 Compra los paquetes futboleros que están al alcance de tu bolsillo. ¡No te pierdas ni un partido!📱
                   </div>
                   <div
-                    class="text-xs font-medium text-primary-600 dark:text-primary-500"
+                    class="text-xs font-medium text-primary-600 dark:text-gray-300"
                   >
-                    10 minutes ago
+                    hace 10 minutos
                   </div>
                 </div>
               </a>
@@ -204,9 +204,9 @@ import {Component, EventEmitter, Output} from '@angular/core';
                     ¡Asegura tu conexión!🌐 Obtén ahora tu paquete de internet para navegar y usar tus redes favoritas sin interrupciones. ¡Es fácil y rápido!⚡️
                   </div>
                   <div
-                    class="text-xs font-medium text-primary-600 dark:text-primary-500"
+                    class="text-xs font-medium text-primary-600 dark:text-gray-300"
                   >
-                    44 minutes ago
+                    hace 44 minutos
                   </div>
                 </div>
               </a>
@@ -245,9 +245,9 @@ import {Component, EventEmitter, Output} from '@angular/core';
                     Encuesta Rápida✨. Tu opinión es clave para un servicio personalizado. ¡Gracias!🚀
                   </div>
                   <div
-                    class="text-xs font-medium text-primary-600 dark:text-primary-500"
+                    class="text-xs font-medium text-primary-600 dark:text-gray-300"
                   >
-                    1 hour ago
+                    hace 58 minutos
                   </div>
                 </div>
               </a>
@@ -284,9 +284,9 @@ import {Component, EventEmitter, Output} from '@angular/core';
                     ¡Día de la Madre! 🌹 Con nuestros SUPER paquetes, dile cuánto la quieres. Internet y WhatsApp para ella. ¡Regálale conexión y cariño! 📲💞
                   </div>
                   <div
-                    class="text-xs font-medium text-primary-600 dark:text-primary-500"
+                    class="text-xs font-medium text-primary-600 dark:text-gray-300"
                   >
-                    3 hours ago
+                    hacec 3 horas
                   </div>
                 </div>
               </a>
